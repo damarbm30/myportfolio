@@ -1,7 +1,10 @@
-import React from "react";
+import { React, useContext } from "react";
+import { ThemeContext } from "../context";
 import "./Intro.css";
 
 const Intro = () => {
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
   return (
     <div className="intro">
       <div className="intro-left">
@@ -28,6 +31,7 @@ const Intro = () => {
           stroke="black"
           className="intro-scroll"
           xmlns="http://www.w3.org/2000/svg"
+          style={{ stroke: darkMode ? "white" : "black" }}
         >
           <g id="scroll">
             <path
