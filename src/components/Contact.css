@@ -1,0 +1,83 @@
+@import url("../Global.css");
+
+.contact {
+  height: 100vh;
+  position: relative;
+}
+
+.contact-bg {
+  width: 20px;
+  height: 100%;
+  background-color: var(--red);
+  position: absolute;
+}
+
+.contact-wrapper {
+  padding: 3.125em;
+  display: flex;
+}
+
+.contact-left {
+  flex: 1;
+}
+
+.contact-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-title {
+  font-size: 3.75rem;
+  width: 70%;
+}
+
+.contact-info-item {
+  display: flex;
+  align-items: center;
+  margin: 3rem 0;
+  font-weight: 300;
+}
+
+.contact-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 1.25rem;
+}
+
+form {
+  margin-top: 1.25rem;
+}
+
+input {
+  width: 50%;
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid black;
+  margin: 0.625rem 0;
+  font-size: 0.875rem;
+  padding-left: 0.625em;
+}
+
+textarea {
+  width: 100%;
+  margin: 0.625rem 0;
+  font-size: 0.875rem;
+  padding-left: 0.625em;
+}
+
+button {
+  border: none;
+  padding: 1em;
+  background-color: var(--red);
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.form-respond {
+  margin: 1rem 0;
+}

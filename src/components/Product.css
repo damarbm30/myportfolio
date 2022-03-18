@@ -1,0 +1,32 @@
+.product {
+  width: 30%;
+  height: 40vh;
+  margin: 20px 10px;
+  border: 2px solid rgb(243, 242, 242);
+  border-radius: 4px 4px 0 0;
+  overflow: hidden;
+}
+
+.product-browser {
+  display: flex;
+  align-items: center;
+  position: sticky;
+  z-index: 2;
+}
+
+.product-circle {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  margin: 3px;
+  background-color: rgb(255, 255, 255);
+}
+
+.product-img {
+  width: 100%;
+  transition: all 10s ease;
+}
+
+.product:hover .product-img {
+  transform: translateY(-100%);
+}

@@ -1,0 +1,73 @@
+@import url("../Global.css");
+
+.intro {
+  display: flex;
+  height: 100vh;
+}
+
+.intro-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-left__wrapper {
+  padding: 3em;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.intro-name {
+  font-size: 4rem;
+}
+
+.intro-title {
+  height: 50px;
+  overflow: hidden;
+}
+
+.intro-title__wrapper {
+  height: 100%;
+  animation: move 5s ease-in-out infinite alternate;
+}
+
+@keyframes move {
+  50% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translateY(-100px);
+  }
+}
+
+.intro-scroll {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  bottom: 20px;
+}
+
+.intro-title__item {
+  height: 50px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--red);
+  display: flex;
+  align-items: center;
+}
+
+.intro-img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
