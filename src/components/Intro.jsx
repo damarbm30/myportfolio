@@ -82,6 +82,7 @@ const Intro = () => {
         </svg>
       </div>
       <div className="intro-right">
+        <div className="intro-bg"></div>
         <img src="img/man-crop.png" alt="" className="intro-img" />
       </div>
     </div>

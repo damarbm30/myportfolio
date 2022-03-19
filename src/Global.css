@@ -1,6 +1,8 @@
 :root {
-  --red: #dc143c;
+  --colFirst: #fb8500;
+  --colSecond: #ffb703;
+  --colThird: #023047;
+  --colFourth: #219ebc;
   --darkGray: #333;
-  --green: #59b256;
   --gray: #999;
 }

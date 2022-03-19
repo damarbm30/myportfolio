@@ -13,6 +13,7 @@
 .productList-title {
   font-size: 3.125rem;
   font-weight: 600;
+  color: var(--colFourth);
 }
 
 .productList-desc {
@@ -24,4 +25,23 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+  .productList {
+    padding: 0.625em;
+  }
+
+  .productList-text {
+    width: 100%;
+  }
+
+  .productList-desc {
+    display: none;
+  }
+
+  .productList-list {
+    flex-direction: column;
+    align-items: center;
+  }
 }

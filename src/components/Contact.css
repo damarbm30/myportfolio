@@ -8,7 +8,7 @@
 .contact-bg {
   width: 20px;
   height: 100%;
-  background-color: var(--red);
+  background-color: var(--colFirst);
   position: absolute;
 }
 
@@ -71,7 +71,7 @@ textarea {
 button {
   border: none;
   padding: 1em;
-  background-color: var(--red);
+  background-color: var(--colFirst);
   color: white;
   font-weight: 500;
   cursor: pointer;
@@ -80,4 +80,35 @@ button {
 
 .form-respond {
   margin: 1rem 0;
+}
+
+@media screen and (max-width: 600px) {
+  .contact-wrapper {
+    flex-direction: column;
+    padding: 0 3em;
+  }
+
+  .contact-title {
+    font-size: 2.5rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  .contact-info-item {
+    margin: 1.25rem 0;
+    width: 100%;
+  }
+
+  .contact-desc {
+    display: none;
+  }
+
+  form {
+    margin-top: 0;
+    margin-left: 1px;
+  }
+
+  textarea {
+    width: 90%;
+  }
 }
