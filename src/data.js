@@ -7,7 +7,7 @@ export const products = [
   {
     id: 2,
     img: "works/travel-web.jpeg",
-    link: "http://lama.dev",
+    link: "https://travel-damar.netlify.app/",
   },
   {
     id: 3,
