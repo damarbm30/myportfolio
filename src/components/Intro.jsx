@@ -19,8 +19,8 @@ const Intro = () => {
             </div>
           </div>
           <p className="intro-desc">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam non quasi commodi
-            nulla, omnis quam cumque maxime harum laborum libero.
+            I do front end programming using ReactJS and sometimes using WordPress. I enjoy editing
+            simple landscape or portrait photos and turn it to a beautiful one.
           </p>
         </div>
         <svg

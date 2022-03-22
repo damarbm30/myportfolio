@@ -85,6 +85,10 @@
   right: 0;
 }
 
+.intro-desc {
+  text-align: justify;
+}
+
 @media screen and (max-width: 600px) {
   .intro {
     flex-direction: column;

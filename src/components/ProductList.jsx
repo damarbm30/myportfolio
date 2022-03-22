@@ -7,10 +7,10 @@ const ProductList = () => {
   return (
     <div className="productList">
       <div className="productList-text">
-        <h1 className="productList-title">Create & Inspire. It's Damar</h1>
+        <h1 className="productList-title">Create & Inspire</h1>
         <p className="productList-desc">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi est molestias
-          exercitationem quaerat autem quia non in sit, ipsam tenetur.
+          These are some of the websites I have built using HTML, CSS and ReactJS. I try to make
+          them as responsive as possible. Feel free to check it by clicking on the image below!
         </p>
       </div>
       <div className="productList-list">

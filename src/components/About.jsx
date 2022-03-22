@@ -16,12 +16,11 @@ const About = () => {
       </div>
       <div className="about-right">
         <h1 className="about__title">About Me</h1>
-        <p className="about__sub">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, odit!
-        </p>
+        <p className="about__sub">College Student Who Loves to Learn</p>
         <p className="about__desc">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum adipisci ut, quia
-          molestiae beatae rerum praesentium temporibus dolores quam? Sit.
+          I'm currently studying Electronics and Instrumentation at Gadjah Mada University. I learn
+          front end development based on mere curiosity, but then I realize that I enjoy coding and
+          designing website and here I am.
         </p>
       </div>
     </div>
